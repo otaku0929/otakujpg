@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
-DB_connect = 'postgresql+psycopg2://postgres:PASSWORD@localhost/database_name'
+DB_connect = 'postgres://rjrtqczwllnrdw:6f23d3af95bbdd7511cdd1849d3eb712dcc140a0cfe24d12a88643f7d2de0ead@ec2-54-83-205-71.compute-1.amazonaws.com:5432/dehi5aeo5k42th'
 
 
 class Images(Base):
