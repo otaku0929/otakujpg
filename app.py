@@ -82,7 +82,7 @@ def connect_db(db_string):
     return engine, session
 
 
-def main(crawler_pages=10):
+def main(crawler_pages=2):
     engine, session = connect_db(DB_connect)
     # python beauty_spider2.py [版名]  [爬幾頁] [推文多少以上]
     board,  page_term, push_rate = 'beauty', crawler_pages, 10
