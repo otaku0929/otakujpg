@@ -139,7 +139,7 @@ def main(crawler_pages=2):
 if __name__ == '__main__':
     print('main')
     main()
-    schedule.every(60).minutes.do(main)
+    schedule.every(720).minutes.do(main)
     while True:
         #print('wating......')
         schedule.run_pending()
